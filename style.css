@@ -35,6 +35,10 @@ page is where the padding is set. */
     color:aliceblue;
     font-size: 37px;
     font-weight: 700;
+    transition: color 0.5s ease-in-out;
+}
+.navbar .logo a:hover{
+    color:#ff0080;
 }
 
 /*have no clue why we have to put list-style:none, but inline-block makes the nav bar go in a line*/
@@ -43,10 +47,15 @@ page is where the padding is set. */
     display: inline-block;
 }
 .navbar .menu li a{
-    color: #FF0080;
-    font-size: 20px;
+    color: #F49D37;
+    font-size: 27px;
     font-weight: 500;
     margin-left: 25px ;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover{
+    color: #ff0080
 }
 
 /* this will be the styling for the main section basically a picture or background with me in it
@@ -75,8 +84,40 @@ margin:auto 0 auto 40px;
     font-weight: 600;
     margin-left: -3px;
 }
+
 .main .main-content .text-3 {
     font-size: 38px;
     font-weight: 600;
     margin-left: -3px;
+}
+
+.main .main-content .text-3 span {
+    color: #F49D37;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+/*Make it a bit more responsive*/
+@media (max-width: 768px){
+    .max-width{ padding:0 50px;}
+    .navbar .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background: linear-gradient(#f22c29,#6f1d92);
+        text-align: center;
+        padding-top: 70px;
+    }
+    .navbar .menu li{
+        display: block;
+    }
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 31px;
+        font-weight: 700;
+    }
+
 }
