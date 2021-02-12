@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,700;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+/*navigation bar styling from a video I watched at https://www.youtube.com/watch?v=tcskp-ncN0I */
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    background: linear-gradient(to bottom right,#6f1d92, #30b8ff );
+    font-family: 'Ubuntu', 'sans-serif';
+
+}
+/*first use of flexbox, but DO NOT CLICK FLEX BOX! USE FLEX ONLY, IT's tempting but don't do it
+we reference the max width class here, do note that the max width on the top of the
+page is where the padding is set. */
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*navigation bar logo note that weight is how bold the imported font is ~Jelanie*/
+.navbar .logo a{
+    color:aliceblue;
+    font-size: 37px;
+    font-weight: 700;
+}
+
+/*have no clue why we have to put list-style:none, but inline-block makes the nav bar go in a line*/
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: #FF0080;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 25px ;
+}
+
+/* this will be the styling for the main section basically a picture or background with me in it
+if I can find a picture nice enough*/
+.main{
+display: flex;
+background: url("images/OhioCon.jpg") no-repeat center;
+height: 100vh;
+color: #ffffff;
+min-height: 500px;
+font-family: 'ubuntu', 'sans-serif';
+}
+
+.main .max-width{
+margin:auto 0 auto 40px;
+}
+
+.main .main-content .text-1 {
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+
+.main .main-content .text-2 {
+    font-size: 77px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.main .main-content .text-3 {
+    font-size: 38px;
+    font-weight: 600;
+    margin-left: -3px;
+}
