@@ -97,6 +97,26 @@ margin:auto 0 auto 40px;
     font-size: 55px;
 }
 
+/*Learned how to make this button from coding nepal */
+.main .main-content a{
+    display: inline-block;
+    background: linear-gradient(#30b8ff,#6f1d92);
+    color:#F49D37;
+    font-size:25px;
+    padding: 12px 36px;
+    margin-top:20px;
+    border-radius:6px;
+    border: 2px solid #ffffff;
+    transition:all 0.3s ease;
+
+}
+.main .main-content a:hover{
+    color: #ff0080;
+    background: inverted;
+
+}
+
+
 /*Make it a bit more responsive*/
 @media (max-width: 768px){
     .max-width{ padding:0 50px;}
@@ -119,5 +139,24 @@ margin:auto 0 auto 40px;
         font-size: 31px;
         font-weight: 700;
     }
+
+}
+.Projects{
+    display: flex;
+    background: url("images/20200112_014305.jpg") no-repeat center;
+    height: 100vh;
+    color: #ffffff;
+    min-height: 500px;
+    font-family: 'ubuntu', 'sans-serif';
+    }
+
+.Projects .max-width{ 
+    margin:auto;
+}
+.Projects .max-width .Projects-Content{
+    font-size: 38px;
+    color: #111111;
+    font-weight: 500;
+
 
 }
