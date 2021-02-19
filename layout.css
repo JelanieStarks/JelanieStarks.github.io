@@ -1,0 +1,16 @@
+.container{
+    display:grid;
+    height: 100vh;
+    grid-template-columns:  1fr;
+    grid-template-rows: 0.2fr 1.5fr;
+}
+img{
+    align-self: center;
+}
+.main .about-content{
+justify-content: center;
+background: #ffffff;
+padding: 8px;
+border-radius:8px;
+
+}

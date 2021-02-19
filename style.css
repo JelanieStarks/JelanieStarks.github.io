@@ -55,18 +55,20 @@ page is where the padding is set. */
 }
 
 .navbar .menu li a:hover{
-    color: #ff0080
+    color: #ff0080;
+    
 }
 
 /* this will be the styling for the main section basically a picture or background with me in it
 if I can find a picture nice enough*/
 .main{
 display: flex;
-background: url("images/OhioCon.jpg") no-repeat center;
+background: url("images/WallapaperBackground.jpg") no-repeat center;
 height: 100vh;
-color: #ffffff;
 min-height: 500px;
-font-family: 'ubuntu', 'sans-serif';
+-webkit-text-stroke: 1px #ff0080;
+font-family: 'ubuntu', 'sans-serif';color: #ffffff;
+
 }
 
 .main .max-width{
@@ -113,7 +115,35 @@ margin:auto 0 auto 40px;
 .main .main-content a:hover{
     color: #ff0080;
     background: inverted;
+}
+    /*This is where the main headers will go!*/
+    /*copypasta from indexes*/    
 
+.header{
+display: flex;
+background: url("images/WallapaperBackground.jpg") no-repeat center;
+height: 100vh;
+min-height: 500px;
+-webkit-text-stroke: 1px #ffffff;
+font-family: 'ubuntu', 'sans-serif';color: #ffffff;
+}
+.header .main-content{
+
+    background: linear-gradient(#30b8ff,#6f1d92);
+    color:#F49D37;
+    font-size:25px;
+    padding: 12px 36px;
+    margin-top:20px;
+    border-radius:6px;
+    border: 2px solid #ffffff;
+    transition:all 0.3s ease;
+}
+
+ img{
+    display: flex;
+    border-radius: 15px;
+    max-width:30%;
+    height: auto;
 }
 
 
@@ -159,4 +189,14 @@ margin:auto 0 auto 40px;
     font-weight: 500;
 
 
+h1{
+    font-size: 80px;
+}
+
+
+}
+main.about-content p{
+    font-size: 18px;
+    font: weight 500px;
+    border: black 2px;
 }
