@@ -15,12 +15,16 @@ border-radius:8px;
 
 }
 .iframe-container{
+    border-radius: 4px;
+    padding: 20px;
     position: relative;
     width: 100%;
     padding-bottom: 56.25%; 
     height: 0;
   }
   .iframe-container iframe{
+    border-radius: 4px;
+    padding: 20px;
     position: absolute;
     top:0;
     left: 0;

@@ -7,8 +7,8 @@
     text-decoration: none;
 }
 .max-width{
-    max-width: 1300px;
-    padding: 0 80px;
+    
+    padding: 0 10px;
     margin: auto;
 }
 
@@ -92,11 +92,11 @@ if I can find a picture nice enough*/
 .main{
 display: flex;
 background: url("images/WallapaperBackground.jpg") no-repeat center;
-height: 100vh;
-min-height: 500px;
 -webkit-text-stroke: 1px #ff0080;
+background-repeat: no-repeat;
+background-attachment: fixed;
 font-family: 'ubuntu', 'sans-serif';color: #ffffff;
-
+align-items: center;
 }
 
 .main .max-width{
