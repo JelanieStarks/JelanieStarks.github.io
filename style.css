@@ -93,8 +93,8 @@ if I can find a picture nice enough*/
 display: flex;
 background: url("images/WallapaperBackground.jpg") no-repeat center;
 -webkit-text-stroke: 1px #ff0080;
-background-repeat: no-repeat;
-background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 font-family: 'ubuntu', 'sans-serif';color: #ffffff;
 align-items: center;
 }
@@ -177,7 +177,7 @@ font-family: 'ubuntu', 'sans-serif';color: #ffffff;
 @media (min-width: 768px){
     img { 
     border-radius:10px;
-    max-width: 60vw;
+    max-width: 25vw;
     height: auto; }
 }
 
