@@ -14,7 +14,7 @@
 
 /*navigation bar styling from a video I watched at https://www.youtube.com/watch?v=tcskp-ncN0I */
 .navbar{
-    /* position: fixed; */
+    position:static;
     width: 100%;
     padding: 15px 0;
     background: linear-gradient(to bottom right,#6f1d92, #30b8ff );
@@ -170,11 +170,14 @@ font-family: 'ubuntu', 'sans-serif';color: #ffffff;
  img{
     display: flex;
     border-radius: 15px;
-    max-width:30%;
     height: auto;
 
 }
-@media (min-width: 768px){
+#profile-img{
+    max-width: 45%;
+    height: auto;
+}
+/* @media (min-width: 768px){
     img { 
     border-radius:10px;
     max-width: 25vw;
@@ -183,7 +186,7 @@ font-family: 'ubuntu', 'sans-serif';color: #ffffff;
 
 
 /*Make it a bit more responsive*/
-@media (max-width: 768px){
+/* @media (max-width: 768px){
     .max-width{ padding:0 50px;}
     .navbar .menu{
         position: fixed;
@@ -203,21 +206,21 @@ font-family: 'ubuntu', 'sans-serif';color: #ffffff;
         margin: 20px 0;
         font-size: 31px;
         font-weight: 700;
-    }
+    } 
 
-}
+} */
 .Projects{
     display: flex;
-    background: url("images/20200112_014305.jpg") no-repeat center;
+    background: url("images/2800x2100_black-and-white-sunset-4k-vaporwave.jpg") no-repeat center;
     height: 100vh;
     color: #ffffff;
     min-height: 500px;
     font-family: 'ubuntu', 'sans-serif';
     }
 
-.Projects .max-width{
+/* .Projects .max-width{
     margin:auto;
-}
+} */
 .Projects .max-width .Projects-Content{
     font-size: 38px;
     color: #111111;
